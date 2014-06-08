@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="0" name="example.example test" skipped="0" tests="1" time="1.556"><testcase classname="example.example test" name="Google test" status="passed" time="1.556"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Google test
+    Given User has [GoogleHomePage] open ... passed in 1.198s
+    When User enters '12' to [txt_search] ... passed in 0.136s
+    And User clicks [btn_search] button ... passed in 0.174s
+    Then The system displays [GoogleSearchPage] ... passed in 0.020s
+    Then The [txt_search] shows '12' ... passed in 0.028s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

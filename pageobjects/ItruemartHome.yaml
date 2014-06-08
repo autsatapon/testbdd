@@ -1,0 +1,13 @@
+# iTrueMart Page
+---
+page:
+  name: ItruemartHomePage
+  title: itruemart Home
+  url: http://www.itruemart.com
+
+elements:
+- name: txt_search
+  xpath: //*[@id="keyword"]
+- name: btn_search
+  xpath: //*[@id="search_submit"]
+...

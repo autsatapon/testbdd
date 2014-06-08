@@ -1,0 +1,14 @@
+# iTrueMart Page
+---
+page:
+  name: ItruemartSearchPage
+  title: iTrueMart Search
+  url: http://www.itruemart.com/search/?q=iphone
+
+elements:
+- name: txt_search
+  xpath: //*[@id="keyword"]
+- name: content
+  xpath: //*[@id="wrapper_content"]/div/div[2]/div[3]/div[2]/div/a[2]
+
+...
