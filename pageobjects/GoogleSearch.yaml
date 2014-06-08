@@ -1,0 +1,13 @@
+# Google Page
+---
+page:
+  name: GoogleSearchPage
+  title: Google Search
+  url: https://www.google.co.th
+
+elements:
+- name: txt_search
+  xpath: //*[@id="gbqfq"]
+- name: btn_search
+  xpath: //*[@id="gbqfb"]
+...
